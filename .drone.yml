@@ -2,9 +2,8 @@ image: bradrydzewski/ruby:2.0.0
 env:
   #- GOPATH=/var/cache/drone
 script:
-  #- gem install postview
+  - bundle
   - rake test
-  - echo "foo bar baz bold"
 services:
   #- redis
 notify:
