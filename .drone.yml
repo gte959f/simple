@@ -4,6 +4,8 @@ env:
 script:
   - bundle
   - rake test
+  - ruby simple.rb &
+  - curl localhost:4567
 services:
   #- redis
 notify:
