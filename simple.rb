@@ -7,6 +7,6 @@ get '/' do
 end
 
 get '/test' do
-  sleep(5)
+  sleep(1)
   'I was tired'
 end
