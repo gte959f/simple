@@ -8,5 +8,5 @@ end
 
 get '/test' do
   sleep(1)
-  'I was tired'
+  'I was tireder'
 end
