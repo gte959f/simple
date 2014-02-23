@@ -3,11 +3,11 @@
 set :bind, '0.0.0.0'
 
 get '/' do
-   sleep(0.75)
+   sleep(3)
    'Hello world!'
 end
 
 get '/test' do
-  sleep(0.8)
+  sleep(0)
   'I was tireder'
 end
